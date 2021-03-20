@@ -1,0 +1,75 @@
+body{
+  background-image: url('https://images.unsplash.com/photo-1543187018-21e461e7538e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=967&q=80');
+  background-size: cover;
+}
+.App {
+  text-align: center;
+  border: 1px solid transparent;
+  margin: 80px 240px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 60vh;
+  border-radius: 20px;
+  
+}
+
+.display{
+  display: flex;
+}
+
+input {
+  margin-top: 40px;
+  outline: none;
+  border: none;
+  border-bottom-style: solid;
+
+}
+
+.inputData{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  background-color: white;
+  width: 50%;
+  margin: 20px 5px 5px 25px;
+  padding-top: 10px;
+}
+
+.displayData{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  align-items: center;
+  background-color: white;
+  width: 50%;
+  margin: 20px 25px 5px 5px;
+  padding-top: 10px;
+}
+
+
+
+
+#label {
+  font-size: 18px;
+  text-align: end;
+  margin-right: 40px;
+}
+
+input[type=submit] {
+  width: 50%;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 50px;
+  border: none;
+  opacity: 0.6;
+  padding: 10px 0px;
+  outline: none;
+  background-color: black;
+  color: white;
+
+}
+input[type=submit]:hover {
+  opacity: 0.8;
+
+}
+
